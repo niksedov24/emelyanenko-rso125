@@ -1,0 +1,286 @@
+/* ==================================================
+   style.css
+   Автор: Емельяненко, группа РСО-125
+   Вариант: 9
+   Тема: Рекламные агентства России
+   ================================================== */
+
+/* ---------- Стили по варианту 9 (ТЗ) ---------- */
+
+.Емельяненко_РСО-125_Гл {
+  font-family: "Courier New", monospace;
+  font-size: 16pt;
+  font-style: italic;
+  text-align: right;
+  margin: 0 0 16pt 0;
+  page-break-before: always;
+  hyphens: none;
+  color: #154360;
+}
+
+.Емельяненко_РСО-125_Подзаг {
+  font-family: "Courier New", monospace;
+  font-size: 14pt;
+  text-align: right;
+  margin: 0 0 12pt 0;
+  line-height: 20pt;
+  color: #154360;
+}
+
+.Емельяненко_РСО-125_Оситек {
+  font-family: "Courier New", monospace;
+  font-size: 12pt;
+  font-weight: bold;
+  text-align: justify;
+  text-indent: 1.5cm;
+  line-height: 1.5;
+  margin: 0 0 10pt 0;
+  color: #1a1a1a;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #f4f7fa;
+  color: #1a1a1a;
+  margin: 0;
+  padding: 0;
+  font-family: "Courier New", monospace;
+}
+
+#container {
+  max-width: 1000px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 25px 35px 40px 35px;
+  box-shadow: 0 2px 20px rgba(21, 67, 96, 0.08);
+  min-height: 100vh;
+}
+
+#menu {
+  background: #154360;
+  padding: 14px 20px;
+  margin: -25px -35px 25px -35px;
+  text-align: center;
+}
+
+#menu a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-family: "Courier New", monospace;
+  font-size: 11pt;
+  font-weight: bold;
+  transition: color 0.2s;
+}
+
+#menu a:hover {
+  color: #5dade2;
+}
+
+#menu a.active {
+  color: #5dade2;
+  border-bottom: 2px solid #5dade2;
+  padding-bottom: 3px;
+}
+
+.hero {
+  background: linear-gradient(135deg, #1e6091 0%, #48c9b0 100%);
+  color: #ffffff;
+  padding: 45px 30px;
+  margin: 0 -35px 30px -35px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-family: "Courier New", monospace;
+  font-size: 22pt;
+  margin: 0 0 10px 0;
+  font-style: italic;
+  letter-spacing: 1px;
+}
+
+.hero p {
+  font-family: "Courier New", monospace;
+  font-size: 12pt;
+  margin: 0;
+  opacity: 0.95;
+}
+
+a {
+  color: #1e6091;
+  text-decoration: none;
+}
+a:hover {
+  color: #48c9b0;
+  text-decoration: underline;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 20px 0;
+  font-family: "Courier New", monospace;
+  font-size: 11pt;
+}
+
+table th {
+  background: #1e6091;
+  color: #ffffff;
+  padding: 10px 12px;
+  text-align: left;
+  border: 1px solid #154360;
+}
+
+table td {
+  padding: 8px 12px;
+  border: 1px solid #e0e0e0;
+  color: #1a1a1a;
+}
+
+table tr:nth-child(even) {
+  background: #eaf4f8;
+}
+table tr:hover {
+  background: #d6eaf2;
+}
+
+ul,
+ol {
+  font-family: "Courier New", monospace;
+  font-size: 12pt;
+  line-height: 1.5;
+  color: #1a1a1a;
+}
+
+ul li,
+ol li {
+  margin-bottom: 4px;
+}
+
+.map-block {
+  text-align: center;
+  margin: 25px 0;
+  padding: 15px;
+  background: #eaf4f8;
+  border: 2px dashed #1e6091;
+  border-radius: 8px;
+}
+
+.map-block img {
+  max-width: 100%;
+  height: auto;
+}
+
+.content-img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 25px auto;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(30, 96, 145, 0.1);
+}
+
+.img-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 700px;
+  height: 260px;
+  margin: 25px auto;
+  background: #e8eef3;
+  border: 2px dashed #1e6091;
+  border-radius: 6px;
+  color: #154360;
+  font-family: "Courier New", monospace;
+  font-size: 11pt;
+  font-weight: bold;
+  text-align: center;
+  user-select: none;
+}
+
+.top-link,
+.bottom-link {
+  display: block;
+  text-align: center;
+  margin: 20px 0;
+  font-family: "Courier New", monospace;
+  font-size: 11pt;
+}
+
+.top-link a,
+.bottom-link a {
+  background: #154360;
+  color: #ffffff;
+  padding: 6px 16px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.top-link a:hover,
+.bottom-link a:hover {
+  background: #48c9b0;
+  color: #ffffff;
+}
+
+#footer {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 3px solid #1e6091;
+  text-align: center;
+  font-family: "Courier New", monospace;
+  font-size: 10pt;
+  color: #666;
+}
+
+#footer a {
+  color: #1e6091;
+}
+
+.map-wrap {
+  position: relative;
+  display: block;
+  width: 100%;
+  margin: 25px 0;
+}
+
+.map-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+.map-dot {
+  position: absolute;
+  display: block;
+  width: 46px;
+  height: 46px;
+  line-height: 46px;
+  text-align: center;
+  background: #1e6091;
+  color: #ffffff;
+  font-family: "Courier New", monospace;
+  font-size: 10pt;
+  font-weight: bold;
+  border-radius: 50%;
+  text-decoration: none;
+  border: 2px solid #ffffff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+  transform: translate(-50%, -50%);
+  transition:
+    transform 0.2s,
+    background 0.2s;
+}
+
+.map-dot:hover {
+  background: #48c9b0;
+  color: #ffffff;
+  text-decoration: none;
+  transform: translate(-50%, -50%) scale(1.15);
+  z-index: 10;
+}

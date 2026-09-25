@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 450" width="700" height="450">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#eaf4f8"/>
+      <stop offset="100%" stop-color="#d6eaf2"/>
+    </linearGradient>
+    <radialGradient id="dot" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#48c9b0"/>
+      <stop offset="100%" stop-color="#1e6091"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="700" height="450" fill="url(#bg)" stroke="#1e6091" stroke-width="2" rx="8"/>
+
+  <path d="M 120 60 Q 200 40 300 60 T 500 80 T 640 120"
+        stroke="#5dade2" stroke-width="3" fill="none" opacity="0.5"/>
+  <path d="M 80 200 Q 250 180 400 220 T 660 260"
+        stroke="#5dade2" stroke-width="3" fill="none" opacity="0.5"/>
+  <path d="M 100 380 Q 280 340 450 370 T 660 400"
+        stroke="#5dade2" stroke-width="3" fill="none" opacity="0.5"/>
+
+  <circle cx="350" cy="225" r="90" fill="#ffffff" opacity="0.4"/>
+  <circle cx="350" cy="225" r="60" fill="none" stroke="#1e6091" stroke-width="1" stroke-dasharray="4 4" opacity="0.6"/>
+  <text x="350" y="230" text-anchor="middle" font-family="Courier New, monospace" font-size="11" fill="#154360" opacity="0.7">ЦЕНТР</text>
+
+  <g font-family="Courier New, monospace" font-size="10" fill="#154360">
+    <circle cx="200" cy="150" r="25" fill="url(#dot)" opacity="0.9"/>
+    <text x="200" y="154" text-anchor="middle" fill="#ffffff" font-weight="bold">BBDO</text>
+
+    <circle cx="350" cy="120" r="25" fill="url(#dot)" opacity="0.9"/>
+    <text x="350" y="124" text-anchor="middle" fill="#ffffff" font-weight="bold">LEO</text>
+
+    <circle cx="500" cy="180" r="25" fill="url(#dot)" opacity="0.9"/>
+    <text x="500" y="184" text-anchor="middle" fill="#ffffff" font-weight="bold">MCC</text>
+
+    <circle cx="280" cy="250" r="25" fill="url(#dot)" opacity="0.9"/>
+    <text x="280" y="254" text-anchor="middle" fill="#ffffff" font-weight="bold">ACG</text>
+
+    <circle cx="420" cy="270" r="25" fill="url(#dot)" opacity="0.9"/>
+    <text x="420" y="274" text-anchor="middle" fill="#ffffff" font-weight="bold">TWI</text>
+
+    <circle cx="560" cy="300" r="25" fill="url(#dot)" opacity="0.9"/>
+    <text x="560" y="304" text-anchor="middle" fill="#ffffff" font-weight="bold">РР</text>
+
+    <circle cx="340" cy="350" r="25" fill="url(#dot)" opacity="0.9"/>
+    <text x="340" y="354" text-anchor="middle" fill="#ffffff" font-weight="bold">ВОС</text>
+
+    <circle cx="480" cy="380" r="25" fill="url(#dot)" opacity="0.9"/>
+    <text x="480" y="384" text-anchor="middle" fill="#ffffff" font-weight="bold">RED</text>
+  </g>
+
+  <text x="350" y="430" text-anchor="middle" font-family="Courier New, monospace" font-size="12" fill="#154360" font-weight="bold">СХЕМА ОФИСОВ АГЕНТСТВ В МОСКВЕ</text>
+</svg>
